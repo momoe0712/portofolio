@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 .hero-button {
-    text-align: left;
+    text-align: auto;
     margin-top: 20px; /* Opsional: memberi jarak dengan kotak kamera */
 }
 
