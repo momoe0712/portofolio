@@ -95,6 +95,11 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
+.hero-button {
+    text-align: left;
+    margin-top: 20px; /* Opsional: memberi jarak dengan kotak kamera */
+}
+
 .about {
     padding-left: 20%;
     padding-right: 20%;
