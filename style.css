@@ -188,7 +188,36 @@ nav ul li a:hover {
     text-align: justify;
 }
 
+.cert-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
+
+.cert h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;    
+    font-weight: 900;     
+    letter-spacing: -2px; 
+    margin-bottom: 15px;  
+}
+
+.cert h3 {
+    margin-bottom: 15px;  
+    margin-top: 15px;
+}
+
+.cert p {
+    font-size: 1.1rem;    
+    line-height: 1.6;        
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
 .contact-section {
+    background-color: var(--white);
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 20%;
@@ -389,12 +418,21 @@ btn-olive.btn-danger:hover {
     background-color: #E2DFD8;
     display: flex;
     align-items: flex-end;
+    position: relative;
 }
 
 .swiper-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.swiper-slide a.glightbox {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .slide-info {

@@ -20,6 +20,10 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
+const lightbox = GLightbox({
+    selector: '.glightbox'
+});
+
 // 2. Logika Akses Kamera
 const video = document.getElementById('webcam');
 const btnKamera = document.getElementById('start-cam');
